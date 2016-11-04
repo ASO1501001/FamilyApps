@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ranpointer=0;
-        mailText="";
+        mailText = "";
 
 
         LinearLayoutManager manager = new LinearLayoutManager(this);
