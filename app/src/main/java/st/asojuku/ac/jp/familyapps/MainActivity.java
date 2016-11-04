@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Random ran = new Random();
 
-                ranpointer = ran.nextInt(RList.size()-1);
+                ranpointer = ran.nextInt(RList.size());
 
                 rview.smoothScrollToPosition(ranpointer);
             }
